@@ -8,12 +8,10 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import axios from "axios";
-import * as dotenv from "dotenv";
-dotenv.config();
 
 const ChatGPT = () => {
   const [data, setData] = useState([]);
-  const apiKey = [GPT_PERSONAL_KEY];
+  const apiKey = "GPT_PERSONAL_APIKEY";
   const apiUrl =
     "https://api.openai.com/v1/engines/text-davinci-002/completions";
   const [textInput, setTextInput] = useState("");
