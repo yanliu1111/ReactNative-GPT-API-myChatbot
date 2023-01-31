@@ -19,5 +19,5 @@ Run
 ```
 npx expo start
 ```
-### see demo
+### see Demo
 ![Screenshot](demogpt.jpg)
